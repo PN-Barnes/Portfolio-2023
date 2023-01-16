@@ -1,0 +1,36 @@
+{
+  "name": "portfolio-2023",
+  "version": "1.0.0",
+  "description": "Paul Barnes Developer Portfolio 2023",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node server/seeder",
+    "data:destroy": "node server/seeder -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PN-Barnes/Portfolio-2023.git"
+  },
+  "author": "Paul Barnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PN-Barnes/Portfolio-2023/issues"
+  },
+  "homepage": "https://github.com/PN-Barnes/Portfolio-2023#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
