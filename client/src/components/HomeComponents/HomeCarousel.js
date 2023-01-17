@@ -1,5 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import inquirer from './../../assets/inquirer.png';
+import generateMarkdown from './../../assets/generateMarkdownFunction.png';
+import consolePrint from './../../assets/consolePrint.png';
+import serverCode from './../../assets/serverCode.png';
 
 const HomeCarousel = () => {
   return (
@@ -7,8 +11,9 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
           className='d-block w-100'
-          src='holder.js/800x400?text=First slide&bg=373940'
-          alt='First slide'
+          height='800px'
+          src={consolePrint}
+          alt='Third slide'
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -18,7 +23,8 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
           className='d-block w-100'
-          src='holder.js/800x400?text=Second slide&bg=282c34'
+          height='800px'
+          src={generateMarkdown}
           alt='Second slide'
         />
 
@@ -30,12 +36,24 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
           className='d-block w-100'
-          src='holder.js/800x400?text=Third slide&bg=20232a'
+          height='800px'
+          src={serverCode}
           alt='Third slide'
         />
-
         <Carousel.Caption>
           <h3>Third slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className='d-block w-100  fluid'
+          height='800px'
+          src={inquirer}
+          alt='First slide'
+        />
+        <Carousel.Caption>
+          <h3>Fourth slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
