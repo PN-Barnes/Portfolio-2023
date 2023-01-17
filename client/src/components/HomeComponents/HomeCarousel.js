@@ -16,8 +16,11 @@ const HomeCarousel = () => {
           alt='Third slide'
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>WorkPlace Generator</h3>
+          <p>
+            Curious about this project? Head towards my project page to checkout
+            the full code!
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -29,8 +32,11 @@ const HomeCarousel = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>ReadMe Creator</h3>
+          <p>
+            This project has become a staple of tools. Wish to see more? Head to
+            the projects page for my source code to see how I did it.
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -41,21 +47,11 @@ const HomeCarousel = () => {
           alt='Third slide'
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className='d-block w-100  fluid'
-          height='800px'
-          src={inquirer}
-          alt='First slide'
-        />
-        <Carousel.Caption>
-          <h3>Fourth slide label</h3>
+          <h3>Ecommerce App</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Creating a server for my Ecommerce App. This was one of my biggest
+            projects I have ever done. This is definitely something you should
+            check out. Head over to my projects to check it out!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
