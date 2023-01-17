@@ -44,3 +44,5 @@ const HomeCarousel = () => {
     </Carousel>
   );
 };
+
+export default HomeCarousel;
