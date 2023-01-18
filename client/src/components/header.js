@@ -7,12 +7,12 @@ const Header = () => {
   const headerLinkStyles = {
     color: 'black',
     fontWeight: '700',
-    fontSize: 'larger',
+    fontSize: '1.5em',
     transition: 'font-size 3s',
   };
   return (
     <header>
-      <Navbar as='headerNavBar' expand='lg' collapseOnSelect>
+      <Navbar expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand className='navBrand'>Paul Barnes</Navbar.Brand>

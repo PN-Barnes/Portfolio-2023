@@ -5,15 +5,14 @@ body {
   font-weight: 700;
   font-size: x-large;
 }
+.navBrand:hover {
+  background-color: #ffd800;
+}
 .navbar {
   background-color: aliceblue;
 }
-.linkContainer {
-  color: 'black';
-  font-weight: '700';
-  font-size: 'larger';
-  transition: font-size 2s;
-}
+
 .linkContainer:hover {
-  background-color: #ffd800;
+  text-decoration: underline #ffd800;
+  text-decoration-thickness: 5px;
 }
