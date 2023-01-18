@@ -6,7 +6,8 @@ body {
   font-size: x-large;
 }
 .navBrand:hover {
-  background-color: #ffd800;
+  text-decoration: underline #ffd800;
+  text-decoration-thickness: 5px;
 }
 .navbar {
   background-color: aliceblue;
