@@ -12,13 +12,13 @@ const Header = () => {
   };
   return (
     <header>
-      <Navbar expand='lg' collapseOnSelect>
+      <Navbar fixed='top' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand className='navBrand'>Paul Barnes</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar.Collapse id='basic-navbar-nav' className='navbar-toggler'>
             <Nav className='ms-auto'>
               <LinkContainer
                 className='linkContainer'

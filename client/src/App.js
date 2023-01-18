@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className='py-3'>
+      <main className='mt-5 pt-5'>
         <Container>
           <Routes>
             <Route path='/' element={<HomePage />}></Route>

@@ -9,6 +9,12 @@ body {
   text-decoration: underline #ffd800;
   text-decoration-thickness: 5px;
 }
+.navbar-toggler {
+  border: 3px solid black;
+}
+.show {
+  border: none;
+}
 .navbar {
   background-color: aliceblue;
 }
