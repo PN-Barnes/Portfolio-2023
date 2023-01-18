@@ -1,0 +1,11 @@
+.navBrand {
+  color: #ffde28;
+}
+.navLink {
+    color: #FFDE28;
+}
+
+.navLink:hover {
+  background-color: black;
+  color: #ffde28;
+}
